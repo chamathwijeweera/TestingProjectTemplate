@@ -39,8 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Era.UnityServiceInitiator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Era.UnityServiceInitiator.1.0.0\lib\netstandard2.0\Era.UnityServiceInitiator.dll</HintPath>
+    <Reference Include="Era.UnityServiceInitiator, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Era.UnityServiceInitiator.1.0.1\lib\netstandard2.0\Era.UnityServiceInitiator.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
@@ -59,7 +60,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net" />
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.9.0\lib\net46\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>packages\Unity.5.9.2\lib\net46\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
@@ -73,15 +75,18 @@
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.9.0\lib\net46\System.ValueTuple.dll</HintPath>
+      <HintPath>packages\Unity.5.9.2\lib\net46\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Unity.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.9.0\lib\net46\Unity.Abstractions.dll</HintPath>
+    <Reference Include="Unity.Abstractions, Version=4.0.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>packages\Unity.5.9.2\lib\net46\Unity.Abstractions.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Unity.Container, Version=5.9.0.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.5.9.0\lib\net46\Unity.Container.dll</HintPath>
+    <Reference Include="Unity.Container, Version=5.9.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>packages\Unity.5.9.2\lib\net46\Unity.Container.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
